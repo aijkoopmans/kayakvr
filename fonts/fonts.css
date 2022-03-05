@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Barlow';
+    src: url('BarlowCondensed-BoldItalic.woff2') format('woff2'),
+        url('BarlowCondensed-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
