@@ -4,7 +4,35 @@
 body{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 16px;
 }
+
+
+.links{
+  a{
+    font-family: 'Barlow Condensed', sans-serif !important;
+    text-shadow: 1.5px 1.5px rgba(0,0,0,0.5);
+    color: #fff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+  }
+  svg{
+    fill: #fff;
+    height: 2rem;
+    width: 2rem;
+    margin-right: 0.5rem;
+    filter: drop-shadow(1.5px 1.5px 0px rgba(0,0,0,0.5));
+  }
+}
+
+.logo{
+  margin-top: 120px;
+}
+
+
+
 
 nav{
   font-weight: 500;
@@ -13,7 +41,6 @@ nav{
   a{
     font-size: 1.5rem;
     color: #fff;
-    font-family: 'Barlow Condensed', sans-serif;
     text-shadow: 1px 1px rgba(0,0,0,0.5);
   }
 }
@@ -28,17 +55,14 @@ nav{
   z-index: -1;
 }
 
-.logo{
-  width: 300px;
-  height: auto;
-  display: block;
-}
 
-.icon img{
+.icon{
   height: 2rem;
 }
 
-svg{
-  width: 300px;
-  filter: drop-shadow(1.5px 1.5px 0px rgba(0,0,0,0.5));
+.logo {
+  svg{
+    width: 300px;
+    filter: drop-shadow(2px 2px 0px rgba(0,0,0,0.5));
+  }
 }
