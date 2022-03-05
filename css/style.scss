@@ -5,10 +5,14 @@
 html{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #000;
 }
 
 html, body {
-  margin: 0; height: 100%; overflow: hidden
+  margin: 0; 
+  height: 100%; 
+  overflow: hidden;
+  background: #000;
 }
 
 header{
@@ -66,5 +70,6 @@ a:hover {
   top: 0;
   left: 0;
   z-index: 0;
+  background: #000;
 }
 
