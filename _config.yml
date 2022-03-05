@@ -1,0 +1,18 @@
+title: Kayak VR
+description: "Kayak VR: Mirage is a jaw-dropping and exhilarating journey through beautiful locations, made for Virtual Reality. Maneuver our fully physically accurate kayak around checkpoints and crown yourself the fastest, or take it easy and use the free-ride mode and take in the sights of our varied locales."
+url: https://www.kayakvr.com
+author: Better Than Life
+
+
+plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap]
+paginate: 10
+permalink: pretty
+languages: ["en", "nl"]
+default_lang: "en"
+exclude_from_localization: ["scripts", "css"]
+parallel_localization: true
+date_format: "%b %-d, %Y"
+markdown: kramdown
+highlighter: rouge
+excerpt_separator: "<!--excerpt-->"
+encoding: UTF-8

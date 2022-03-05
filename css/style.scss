@@ -1,0 +1,44 @@
+---
+---
+
+body{
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+nav{
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  a{
+    font-size: 1.5rem;
+    color: #fff;
+    font-family: 'Barlow Condensed', sans-serif;
+    text-shadow: 1px 1px rgba(0,0,0,0.5);
+  }
+}
+
+#video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.logo{
+  width: 300px;
+  height: auto;
+  display: block;
+}
+
+.icon img{
+  height: 2rem;
+}
+
+svg{
+  width: 300px;
+  filter: drop-shadow(1.5px 1.5px 0px rgba(0,0,0,0.5));
+}
