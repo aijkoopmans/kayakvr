@@ -58,8 +58,25 @@ a:hover {
 
 .btl-logo{
   background: #000;
+  width: 100px;
+  margin-right: 1rem;
+}
+
+footer{
   padding: 0.2rem;
-  bottom: 0; left: 0; width: 100px;
+  bottom: 0; left: 0; 
+
+}
+
+.footer-icon{
+  svg{
+    margin-top: calc(50px - 1.1rem);
+    fill: #fff;
+    height: 2.2rem;
+    width: 2.2rem;
+    margin-left: 1rem;
+    filter: drop-shadow(1.5px 1.5px 0px rgba(0,0,0,0.5));
+  }
 }
 
 #video_16_9, #video_9_16 {
