@@ -5,18 +5,41 @@
 html{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #000;
+  // background: #000;
 }
 
 html, body {
   margin: 0; 
   height: 100%; 
-  overflow: hidden;
+  background-color: rgba(0,0,0,0);
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  text-shadow: 1.5px 1.5px rgba(0,0,0,0.5);
   background: #000;
+  font-weight: 500;
 }
+
+.bg-image{
+  background: rgb(0,0,0) url('{{ site.baseurl }}/images/FinalTrailer_16_9_Fade_InBetween_1080P_4K_Youtube_HQ_ArcticBrighter.mp4_snapshot_00.43.000.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.features{
+  @media (min-width: 992px) { 
+    list-style-position: inside;
+  }
+}
+
 
 header{
   z-index: 1;
+}
+
+p{
+  line-height: 1.75;
 }
 
 a{
@@ -33,17 +56,27 @@ a:hover {
   }
 }
 
+.barlow{
+  font-family: 'Barlow', sans-serif;
+  font-style: italic;
+  color: #fff !important;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+h1, h2, h3, h4, h5{
+  @extend .barlow;
+}
+
+h1{
+  font-size: 2rem;
+}
 
 .links{
   bottom:0;
   
   a{
-    font-family: 'Barlow', sans-serif;
-    font-style: italic;
-    text-shadow: 1.5px 1.5px rgba(0,0,0,0.5);
-    color: #fff !important;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
+    @extend .barlow;
     font-size: 1.5rem;
   }
 
