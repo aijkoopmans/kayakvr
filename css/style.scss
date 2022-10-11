@@ -25,7 +25,7 @@ p{
 
 .bg-image{
   // background: rgb(0,0,0) url('{{ site.baseurl }}/images/FinalTrailer_16_9_Fade_InBetween_1080P_4K_Youtube_HQ_ArcticBrighter.mp4_snapshot_00.43.000.jpg') no-repeat center center fixed; 
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('{{ site.baseurl }}/images/vlcsnap-2022-08-04-13h58m18s809.jpg') no-repeat center center fixed; 
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('{{ site.baseurl }}/images/bg_arctic.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -45,6 +45,10 @@ header{
 
 p{
   line-height: 1.75;
+}
+
+a{
+  color: #fff !important;
 }
 
 .links{
